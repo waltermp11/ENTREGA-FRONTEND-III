@@ -1,0 +1,290 @@
+:root {
+  --colorLetter: #41545b;
+  --background-color: #9ed2ba;
+  --button-color: #4a696c;
+  --button-color-select: #6a9951;
+  --background-color-light: #b8e4dc;
+  --background-card:  #b8e4dc;
+}
+div[tema="dark"] {
+  --colorLetter: white;
+  --background-color: #1a1a1a;
+  --button-color: #8d8d8d;
+  --button-color-select: #6a9951;
+  --background-color-light: #b8e4dc;
+  --background-card: #ebebeb;
+}
+
+* {
+  transition: background-color 1s;
+  margin: 0;
+  padding: 0; 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  font-weight: 700;
+  color: var(--colorLetter  );
+  text-decoration: inherit;
+}
+a:hover {
+  color: blue;
+}
+.a-card {
+  color: black;
+
+}
+.a-card:hover {
+  color: blue;
+}
+
+h1,h3{
+  color:var(--colorLetter)
+}
+
+body {
+  margin: 0;
+  display: flex;
+  margin: 0.2rem;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: ;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  background-color: var(--background-color);
+  padding: 1.2rem;
+}
+.logo-dh-odonto {
+  padding: 0rem 2rem;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  padding: 0rem 1rem;
+  align-items: center;
+}
+.nav ul li {
+  font-size: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border-style: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-color);
+  cursor: pointer;
+  color: #f9f9f9;
+}
+button:hover {
+  background-color: var(--background-color-light);
+  color: var(--colorLetter);
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--colorLetter);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+}
+
+.contact-info:hover {
+  background-color: var(--background-color-light);
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  align-items: center;
+}
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.button-1,
+.button-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.button-form {
+  padding: 0.8rem 4rem 1.2rem 4rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  border-style: double;
+}
+
+.card-validation-form-null {
+  background-color: #f7bfbe;
+  color: red;
+  padding: 0.8rem 1rem 1.2rem 2rem;
+  border-radius: 1rem;
+}
+
+.card-confirmation-form-message {
+  background-color: #9ed2ba;
+  color: green;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.button-send {
+  background-color: var(--button-color);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  background-color: var(--background-color);
+  padding: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-iconos-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.icons-footer {
+  width: 2rem;
+  height: 2rem;
+}
+
+.dh-png {
+  width: 300px;
+}
+
+.home {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container-cards {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 15rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.4rem;
+  border-color: var(--button-color);
+  border-style: double;
+  background-color: var(--background-card);
+}
+.card-container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.doctor-image {
+  width: 200px;
+  height: 200px;
+}
+.button-favorito {
+  color: white;
+  background-color: var (--button-color);
+}
+
+.favorito-icono {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.table-detail {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-detail th,
+.table-detail td {
+  padding: 1rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-detail th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.table-detail tr:last-child td {
+  border-bottom: none;
+}
+
+.table-detail tr:hover {
+  background-color: #41545b;
+}
+
+.table-detail tr:hover td {
+  color: white;
+}
+
+.favs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
