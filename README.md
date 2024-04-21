@@ -1,6 +1,6 @@
 # Readme 🌐💻
 
-Esta es la entrega final de front end, desarrollada por Walter Montoya Presiga, el proyecto se desarrollo con vite, entonces estos serian los pasos para ejecutar el proyecto ⏏️ :
+Esta es la entrega final de front end, desarrollada por Walter Montoya Presiga, el proyecto se desarrollo HTML, CSS, Javascript, react (JSX) junto al servidor de desarrollo  Vite, entonces estos serian los pasos para ejecutar el proyecto ⏏️ :
 
 ## Pasos
 
